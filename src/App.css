@@ -1,0 +1,160 @@
+*{
+    font-family: sans-serif;
+  }
+  .App {
+      text-align: center;
+    }
+    nav{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 60px;width: 100%;
+      background-color: lightskyblue;
+    }
+    nav>a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+  
+    }
+  
+    nav>a:hover{
+      cursor: pointer;
+      transform: scale(1.1,1.1);
+    }
+    
+    /* .active-class{
+      color: white;
+    }
+    
+    .not-active-class{
+      color: rgb(8, 8, 83);
+    } */
+    
+    .student-details-btn{
+      display: flex;
+      justify-content: space-between;
+      margin-right:10vw;
+      margin-left: 10vw;
+      align-items: center;
+    }
+    
+    .student-details-btn>button{
+      height: fit-content;
+      font-weight: bold;
+      background-color: blue;
+      border: 2px solid black;
+      padding: 10px;border-radius: 10px;
+    
+    }
+    
+    .student-details-btn>button:hover{
+      cursor: pointer;
+      transform: scale(1.1,1.1);
+    }
+    
+    .details-section{
+      margin-left:10px;
+      margin-right: 30px;
+      height: fit-content;
+      background-color: white;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      position: relative;
+      margin: auto;
+      top: 40px;
+      width: 750px;
+    }
+    
+    .head{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: row;
+      gap:7vw;
+      background-color: greenyellow;
+      border: 2px solid lightsalmon;
+      height:60px;
+      width: 75%;
+      position: relative;
+      top: -40px;
+    }
+    
+    .addSList-form{
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+    form{
+      padding: 20px;
+      border: 2px solid red;
+      border-radius: 20px;
+      display: flex;
+      flex-flow: row;
+      gap: 500px;
+      width: 60%;
+      justify-content: center;
+    }
+    
+    form>div>input{
+      border: none;
+      background-color: lightcoral;
+      height: 50px;color: black;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    
+    .addSList-form>.btn-div>button{
+      width:100px;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid blue;
+      font-weight: bold;
+      background-color: lightseagreen;
+      position: relative;
+      right: 50px;
+      bottom: 20px;
+    }
+    .addSList-form>button:hover{
+      cursor: pointer;
+      background-color: aqua;
+    }
+    
+    .StudentCard{
+      display: flex;
+      flex-flow: row;
+      gap: 13vw;
+      align-items: center;
+      border-bottom: 2px solid white;
+    }
+    
+    .list{
+      position: relative;
+      top: -30px;
+    }
+    .StudentCard>button{
+      height: fit-content;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: white;
+      border: none;
+    }
+    .StudentCard>button:hover{
+      cursor: pointer;
+    }
+    .StudentCard>h2{
+      width: 15px;
+    }
+    
+    .btn-div{
+      display: flex;
+      flex-flow: row;
+     gap: 1vw;
+      margin-left: 8vw;
+    }
+    
+    .btn-div>button:hover{
+      cursor: pointer;
+    }
